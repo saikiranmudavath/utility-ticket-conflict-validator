@@ -1,0 +1,8 @@
+### Main request
+GET http://localhost:3000/api/tickets/conflicts?bbox=-80.00,43.18,-79.65,43.38&radiusMeters=250
+
+### Filter by utility type
+GET http://localhost:3000/api/tickets/conflicts?bbox=-80.00,43.18,-79.65,43.38&utilityType=WATER&radiusMeters=250
+
+### Filter by station code
+GET http://localhost:3000/api/tickets/conflicts?bbox=-80.00,43.18,-79.65,43.38&stationCode=HLTNW02&radiusMeters=250
